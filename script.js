@@ -1,4 +1,4 @@
-document.getElementById("form1").addEventListener("submit", function (event) {
+document.getElementById("form1").addEventListener("submit", function(event) {
   event.preventDefault();
 
   const fname = document.querySelector('input[name="fname"]').value.trim();
